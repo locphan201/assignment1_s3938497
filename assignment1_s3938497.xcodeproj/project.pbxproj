@@ -11,14 +11,32 @@
 		CDDFF8502A7A0B07007EF441 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDFF84F2A7A0B07007EF441 /* ContentView.swift */; };
 		CDDFF8522A7A0B09007EF441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDFF8512A7A0B09007EF441 /* Assets.xcassets */; };
 		CDDFF8552A7A0B09007EF441 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDFF8542A7A0B09007EF441 /* Preview Assets.xcassets */; };
+		CDDFF85D2A7A0B70007EF441 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDFF85C2A7A0B70007EF441 /* Destination.swift */; };
+		CDDFF8602A7A0DCF007EF441 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDFF85F2A7A0DCF007EF441 /* MapView.swift */; };
+		CDDFF8642A7A12DE007EF441 /* DestinationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDFF8632A7A12DE007EF441 /* DestinationRow.swift */; };
+		CDDFF8662A7A136F007EF441 /* DestinationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDFF8652A7A136F007EF441 /* DestinationList.swift */; };
+		CDDFF8682A7A13E4007EF441 /* DestinationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDFF8672A7A13E4007EF441 /* DestinationCard.swift */; };
+		CDDFF86C2A7A145D007EF441 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDFF86B2A7A145D007EF441 /* CircleImage.swift */; };
+		CDDFF86E2A7A2792007EF441 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDFF86D2A7A2792007EF441 /* WelcomeView.swift */; };
+		CDDFF8722A7A32A2007EF441 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDFF8712A7A32A2007EF441 /* ModelData.swift */; };
+		CDDFF8742A7A3650007EF441 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = CDDFF8732A7A3650007EF441 /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CDDFF84A2A7A0B07007EF441 /* assignment1_s3938497.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = assignment1_s3938497.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDDFF84A2A7A0B07007EF441 /* MyTravelPocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTravelPocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDDFF84D2A7A0B07007EF441 /* assignment1_s3938497App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment1_s3938497App.swift; sourceTree = "<group>"; };
 		CDDFF84F2A7A0B07007EF441 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CDDFF8512A7A0B09007EF441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDDFF8542A7A0B09007EF441 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDDFF85C2A7A0B70007EF441 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		CDDFF85F2A7A0DCF007EF441 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		CDDFF8632A7A12DE007EF441 /* DestinationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationRow.swift; sourceTree = "<group>"; };
+		CDDFF8652A7A136F007EF441 /* DestinationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationList.swift; sourceTree = "<group>"; };
+		CDDFF8672A7A13E4007EF441 /* DestinationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationCard.swift; sourceTree = "<group>"; };
+		CDDFF86B2A7A145D007EF441 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		CDDFF86D2A7A2792007EF441 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		CDDFF8712A7A32A2007EF441 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		CDDFF8732A7A3650007EF441 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +61,7 @@
 		CDDFF84B2A7A0B07007EF441 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CDDFF84A2A7A0B07007EF441 /* assignment1_s3938497.app */,
+				CDDFF84A2A7A0B07007EF441 /* MyTravelPocket.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,7 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				CDDFF84D2A7A0B07007EF441 /* assignment1_s3938497App.swift */,
-				CDDFF84F2A7A0B07007EF441 /* ContentView.swift */,
+				CDDFF85E2A7A0BBA007EF441 /* Model */,
+				CDDFF85B2A7A0B41007EF441 /* View */,
 				CDDFF8512A7A0B09007EF441 /* Assets.xcassets */,
 				CDDFF8532A7A0B09007EF441 /* Preview Content */,
 			);
@@ -65,6 +84,30 @@
 				CDDFF8542A7A0B09007EF441 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDDFF85B2A7A0B41007EF441 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDDFF84F2A7A0B07007EF441 /* ContentView.swift */,
+				CDDFF85F2A7A0DCF007EF441 /* MapView.swift */,
+				CDDFF8632A7A12DE007EF441 /* DestinationRow.swift */,
+				CDDFF8652A7A136F007EF441 /* DestinationList.swift */,
+				CDDFF8672A7A13E4007EF441 /* DestinationCard.swift */,
+				CDDFF86B2A7A145D007EF441 /* CircleImage.swift */,
+				CDDFF86D2A7A2792007EF441 /* WelcomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CDDFF85E2A7A0BBA007EF441 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CDDFF85C2A7A0B70007EF441 /* Destination.swift */,
+				CDDFF8712A7A32A2007EF441 /* ModelData.swift */,
+				CDDFF8732A7A3650007EF441 /* data.json */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +127,7 @@
 			);
 			name = assignment1_s3938497;
 			productName = assignment1_s3938497;
-			productReference = CDDFF84A2A7A0B07007EF441 /* assignment1_s3938497.app */;
+			productReference = CDDFF84A2A7A0B07007EF441 /* MyTravelPocket.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,6 +170,7 @@
 			files = (
 				CDDFF8552A7A0B09007EF441 /* Preview Assets.xcassets in Resources */,
 				CDDFF8522A7A0B09007EF441 /* Assets.xcassets in Resources */,
+				CDDFF8742A7A3650007EF441 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +182,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDDFF8502A7A0B07007EF441 /* ContentView.swift in Sources */,
+				CDDFF8602A7A0DCF007EF441 /* MapView.swift in Sources */,
 				CDDFF84E2A7A0B07007EF441 /* assignment1_s3938497App.swift in Sources */,
+				CDDFF85D2A7A0B70007EF441 /* Destination.swift in Sources */,
+				CDDFF86E2A7A2792007EF441 /* WelcomeView.swift in Sources */,
+				CDDFF8682A7A13E4007EF441 /* DestinationCard.swift in Sources */,
+				CDDFF86C2A7A145D007EF441 /* CircleImage.swift in Sources */,
+				CDDFF8722A7A32A2007EF441 /* ModelData.swift in Sources */,
+				CDDFF8642A7A12DE007EF441 /* DestinationRow.swift in Sources */,
+				CDDFF8662A7A136F007EF441 /* DestinationList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +321,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"assignment1_s3938497/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_CFBundleDisplayName = "My Travel Pocket";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -280,7 +334,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "vn.edu.rmit.s3938497.assignment1-s3938497";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MyTravelPocket;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,6 +351,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"assignment1_s3938497/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_CFBundleDisplayName = "My Travel Pocket";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -308,7 +364,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "vn.edu.rmit.s3938497.assignment1-s3938497";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MyTravelPocket;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
