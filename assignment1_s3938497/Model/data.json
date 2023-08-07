@@ -1,12 +1,74 @@
 [
     {
+        "id" : 0,
         "name": "Notre-Dame Cathedral",
         "typeActivity": "Sightseeing",
         "description": "Notre-Dame Cathedral Basilica of Saigon is a cathedral located in the downtown of Ho Chi Minh City, Vietnam. Established by French colonists who initially named it the Church of Saigon, the cathedral was constructed between 1863 and 1880. The name Notre-Dame Cathedral has been used since 1959. It has two bell towers, reaching a height of 58 meters (190 feet).",
         "imageName": "notre-dame",
+        "address" : "01 Cong xa Paris Street, Ben Nghe Ward, District 1",
         "coordinates": {
             "latitude": 10.779722,
             "longitude": 106.699167
+        }
+    },
+    {
+        "id" : 1,
+        "name": "Independence Palace",
+        "typeActivity": "Sightseeing",
+        "description": "The Independence Palace, also publicly known as the Reunification Convention Hall, is a landmark in Ho Chi Minh City, Vietnam. It was designed by architect Ngo Viet Thu and was the home and workplace of the president of the Republic of Vietnam. It was the site of the Fall of Saigon on 30 April 1975 that ended the Vietnam War, when a North Vietnamese Army tank crashed through its gates.",
+        "imageName": "independence-palace",
+        "address" : "135 Nam Ky Khoi Nghia Street, Ben Nghe Ward, District 1",
+        "coordinates": {
+            "latitude": 10.7770,
+            "longitude": 106.6953
+        }
+    },
+    {
+        "id" : 2,
+        "name": "War Remnants Museum",
+        "typeActivity": "Museum",
+        "description": "Operated by the Ho Chi Minh City government, an earlier version of this museum opened on September 4, 1975, as the Exhibition House for US and Puppet Crimes. It was located in the former United States Information Agency building. The exhibition was not the first of its kind for the North Vietnamese side, but rather followed a tradition of such exhibitions exposing war crimes, first those of the French and then those of the Americans, who had operated in the country as early as 1954.\nFormerly known as the \"Museum of Chinese and American War Crimes\", the name was changed in 1990 to Exhibition House for Crimes of War and Aggression, dropping both \"U.S.\" and \"Puppet.\" In 1995, following the normalization of diplomatic relations with the United States and end of the US embargo a year before, the references to \"war crimes\" and \"aggression\" were dropped from the museum's title as well; it became the War Remnants Museum.",
+        "imageName": "war-remnants-museum",
+        "address" : "28 Vo Van Tan Street, Vo Thi Sau Ward, District 3",
+        "coordinates": {
+            "latitude": 10.7795,
+            "longitude": 106.6921
+        }
+    },
+    {
+        "id" : 3,
+        "name": "Municipal Theatre",
+        "typeActivity": "Sightseeing",
+        "description": "The Municipal Theatre of Ho Chi Minh City, also known as Saigon Municipal Opera House, is an opera house in Ho Chi Minh City, Vietnam. It is an example of French Colonial architecture in Vietnam. Designed by French architects as the Opéra de Saïgon, the building was completed in 1900. The 500-seat building served as the house of the unicameral National Assembly from 1956 until 1967 and subsequently as the seat of bicameral chambers: Lower House and a Senate or Upper House of the National Assembly of South Vietnam. It housed the People's Assembly of the Republic of South Vietnam in 1975. It was not until 1976 that it was again used as a theatre. The facade was restored in 1998.",
+        "imageName": "opera-house",
+        "address" : "7 Cong truong Lam Son Street, Ben Nghe Ward, District 1",
+        "coordinates": {
+            "latitude": 10.7766,
+            "longitude": 106.7032
+        }
+    },
+    {
+        "id" : 4,
+        "name": "Nguyen Hue Walking Street",
+        "typeActivity": "Entertainment",
+        "description": "Nguyen Hue Street is a boulevard in District 1, downtown Ho Chi Minh City, Vietnam. Being one of Saigon's oldest thoroughfares, the boulevard had undergone several transformations; it is currently a famous pedestrian street in the city. During the lunar new year festival, the street is decorated for the occasion and the tradition started in 2004, which previously known as Nguyen Hue Flower Street.",
+        "imageName": "nguyen-hue-street",
+        "address" : "Nguyen Hue Street, Ben Nghe Ward, District 1",
+        "coordinates": {
+            "latitude": 10.775333,
+            "longitude": 106.702572
+        }
+    },
+    {
+        "id" : 5,
+        "name": "Bui Vien Street",
+        "typeActivity": "Entertainment",
+        "description": "Bui Vien Street is located at District 1, Ho Chi Minh City, Vietnam. This place is famous for night-time entertainment with a numerous of bars, pubs, shops and services for tourists.",
+        "imageName": "bui-vien-street",
+        "address" : "Bui Vien Street, Pham Ngu Lao Ward, District 1",
+        "coordinates": {
+            "latitude": 10.767175,
+            "longitude": 106.69355
         }
     }
 ]

@@ -9,16 +9,20 @@ import SwiftUI
 import MapKit
 
 struct MapView: View {
-    var coordinate: CLLocationCoordinate2D
+    var id: Int
         
+    var desLoc : Destination {
+        destinations[id]
+    }
+    
     @State private var region = MKCoordinateRegion()
 
     var body: some View {
-        Map(coordinateRegion: $region, annotationItems: destinations) { destination in
-            MapMarker(coordinate: destination.locationCoordinate)
-        }
+            Map(coordinateRegion: $region, annotationItems: [desLoc]) { destination in
+                MapMarker(coordinate: desLoc.locationCoordinate)
+            }
             .onAppear {
-                setRegion(coordinate)
+                setRegion(desLoc.locationCoordinate)
             }
     }
     
@@ -32,6 +36,6 @@ struct MapView: View {
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
-        MapView(coordinate: destinations[0].locationCoordinate)
+        MapView(id: destinations[0].id)
     }
 }

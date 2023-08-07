@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD9D6EC52A80950A0022BA93 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9D6EC42A80950A0022BA93 /* SearchBarView.swift */; };
 		CDDFF84E2A7A0B07007EF441 /* assignment1_s3938497App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDFF84D2A7A0B07007EF441 /* assignment1_s3938497App.swift */; };
 		CDDFF8502A7A0B07007EF441 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDFF84F2A7A0B07007EF441 /* ContentView.swift */; };
 		CDDFF8522A7A0B09007EF441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDFF8512A7A0B09007EF441 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD9D6EC42A80950A0022BA93 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		CDDFF84A2A7A0B07007EF441 /* MyTravelPocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTravelPocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDDFF84D2A7A0B07007EF441 /* assignment1_s3938497App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment1_s3938497App.swift; sourceTree = "<group>"; };
 		CDDFF84F2A7A0B07007EF441 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				CDDFF8672A7A13E4007EF441 /* DestinationCard.swift */,
 				CDDFF86B2A7A145D007EF441 /* CircleImage.swift */,
 				CDDFF86D2A7A2792007EF441 /* WelcomeView.swift */,
+				CD9D6EC42A80950A0022BA93 /* SearchBarView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				CDDFF86E2A7A2792007EF441 /* WelcomeView.swift in Sources */,
 				CDDFF8682A7A13E4007EF441 /* DestinationCard.swift in Sources */,
 				CDDFF86C2A7A145D007EF441 /* CircleImage.swift in Sources */,
+				CD9D6EC52A80950A0022BA93 /* SearchBarView.swift in Sources */,
 				CDDFF8722A7A32A2007EF441 /* ModelData.swift in Sources */,
 				CDDFF8642A7A12DE007EF441 /* DestinationRow.swift in Sources */,
 				CDDFF8662A7A136F007EF441 /* DestinationList.swift in Sources */,

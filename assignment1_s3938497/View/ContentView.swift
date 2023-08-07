@@ -9,13 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     @State var isWelcomePage: Bool = true
+    @State var isDarkMode = false
     
     var body: some View {
         
         if isWelcomePage {
             WelcomeView(isWelcomePage: $isWelcomePage)
         } else {
-            DestinationList()
+            DestinationList(isDarkMode: $isDarkMode)
+                .preferredColorScheme(isDarkMode ? .dark : .light)
         }
     }
 }

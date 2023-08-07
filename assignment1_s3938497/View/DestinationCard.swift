@@ -13,7 +13,7 @@ struct DestinationCard: View {
     var body: some View {
         ScrollView {
             VStack {
-                MapView(coordinate: destination.locationCoordinate)
+                MapView(id: destination.id)
                     .edgesIgnoringSafeArea(.top)
                     .frame(height: 275)
                 HStack {
@@ -21,11 +21,36 @@ struct DestinationCard: View {
                         .offset(y: -80)
                         .padding(.bottom, -80)
                     Text(destination.name)
-                        .foregroundColor(.black)
                         .fontWeight(.bold)
                         .font(.system(size: 28))
                     Spacer()
                 }
+                
+                Divider()
+                    .frame(width:300, height: 1)
+                    .padding(.horizontal, 10)
+                    .background(.blue)
+                    .opacity(0.75)
+                
+                HStack {
+                    Text("Activity: ")
+                        .bold()
+                    Text(destination.typeActivity)
+                        .font(.system(size: 16))
+                    Spacer()
+                }
+                .padding(.horizontal, 20)
+                .padding(.vertical, 5)
+                
+                HStack {
+                    Text("Address: ")
+                        .bold()
+                    Text(destination.address)
+                        .font(.system(size: 16))
+                    Spacer()
+                }
+                .padding(.horizontal, 20)
+                .padding(.vertical, 5)
                 
                 Divider()
                     .frame(width:300, height: 1)
@@ -37,6 +62,12 @@ struct DestinationCard: View {
                     .padding()
                     .lineSpacing(10)
                 
+                HStack {
+                    Spacer()
+                    Text("- Wikipedia")
+                        .bold()
+                        .padding(.horizontal, 30)
+                }
             }
         }
     }

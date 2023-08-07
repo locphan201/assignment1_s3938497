@@ -14,13 +14,47 @@ struct WelcomeView: View {
     var body: some View {
         ZStack {
             LinearGradient(
-                gradient: Gradient(colors: [.blue, .white]),
+                gradient: Gradient(colors: [.white, .white, .blue, .gray]),
                 startPoint: .top,
                 endPoint: .bottom
             )
             .edgesIgnoringSafeArea(.all)
             
             VStack {
+                Text("My Travel Pocket")
+                    .font(.system(size: 40))
+                    .bold()
+                    .padding(.top, 20)
+                HStack {
+                    Text("Welcome!")
+                        .font(.system(size: 40))
+                        .bold()
+                        .offset(y: 10)
+                    Image("app-logo")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 100, height: 100)
+                    Spacer()
+                }
+                .padding(.top, 35)
+                .padding(.horizontal, 30)
+                
+                Text("Nice to see you again")
+                    .font(.system(size: 30))
+                    .offset(x: -28, y: -20)
+                
+                Spacer()
+                Image("rmit-logo-black")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 175)
+                
+                Text("HCMC: Unveiling Hidden Gems!")
+                    .padding(.top, 75)
+                    .font(.system(size: 20))
+                    .italic()
+                    
+                
                 Spacer()
                 Button {
                     isWelcomePage = false
@@ -31,7 +65,7 @@ struct WelcomeView: View {
                         .opacity(0.2)
                         .padding(.horizontal, 30)
                         .overlay(
-                            Text("Get start")
+                            Text("Discover")
                                 .font(.system(size: 20))
                                 .bold()
                                 .foregroundColor(.black)
